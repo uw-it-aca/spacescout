@@ -63,7 +63,6 @@ body {
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  padding: 10px 30px; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -113,16 +112,16 @@ a {
   color: #007edf;
   text-shadow: none;
 
-  transition: color 0.5s ease;
-  transition: text-shadow 0.5s ease;
-  -webkit-transition: color 0.5s ease;
-  -webkit-transition: text-shadow 0.5s ease;
-  -moz-transition: color 0.5s ease;
-  -moz-transition: text-shadow 0.5s ease;
-  -o-transition: color 0.5s ease;
-  -o-transition: text-shadow 0.5s ease;
-  -ms-transition: color 0.5s ease;
-  -ms-transition: text-shadow 0.5s ease;
+  transition: color 0.2s ease;
+  transition: text-shadow 0.2s ease;
+  -webkit-transition: color 0.2s ease;
+  -webkit-transition: text-shadow 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -moz-transition: text-shadow 0.2s ease;
+  -o-transition: color 0.2s ease;
+  -o-transition: text-shadow 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  -ms-transition: text-shadow 0.2s ease;
 }
 
 #main_content a:hover {
@@ -345,18 +344,91 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #E5E5E5;
+  padding-top: 90px;
 
 }
 
 #main_content {
-  padding-top: 0;
+  padding-top: 90px;
+  background: #E5E5E5;
+  margin: 0 20px;
 }
 
 #footer_wrap {
   background: #212121;
 }
 
+/* Stuff added by Lauren */ 
 
+.pull-left { float: left; }
+.pull-right { float: right; }
+
+#footer { margin: 15px 0 0; font-size: 11px; line-height: 14px; background-image: url("../images/w.png"); }
+
+#footer .copyright { width: 32%; margin-bottom: 10px; margin-left: 45px; }
+
+#footer .partners { margin-left: 35px; width: 58%; color: #AAAAAA; }
+
+.visuallyhidden { border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;}
+    
+.logo  { 
+    background-image: url("../images/spacescout_new.png");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    height: 80px;
+    line-height: 80px;
+    width: 284px;
+    margin-left: 20px;
+    float: left;
+    margin-right: 30px;
+  }
+
+  /* jared */
+  header {
+    -webkit-box-shadow:rgba(0,0,0,0.3) 0 1px 9px,rgba(255,255,255,0.2) 0 -1px 0 inset;
+    -moz-box-shadow:rgba(0,0,0,0.3) 0 1px 9px,rgba(255,255,255,0.2) 0 -1px 0 inset;box-shadow:rgba(0,0,0,0.3) 0 1px 9px,rgba(255,255,255,0.2) 0 -1px 0 inset;
+    position:absolute;
+    left:0;right:0;
+
+
+    border-bottom:1px solid #000;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    background:#a3a3a3;
+    background:rgba(0,0,0,0.22);
+  }
+  nav {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 400px;
+
+  }
+  nav ul { list-style: none;margin-bottom: 0; overflow: hidden;}
+  nav li {
+    text-shadow: rgba(0,0,0,0.75) 0 1px 1px;
+    display: inline-block;
+    padding: 28px 15px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav li a {
+    color: #fff;
+    text-shadow: rgba(0,0,0,.55) 0 1px 1px;
+   }
+   nav li a:hover {
+  color: #007edf;
+  text-shadow: none;
+  transition: none;
+   }
 
 /*******************************************************************************
 Small Device Styles
@@ -370,11 +442,14 @@ Small Device Styles
   #downloads {
     display: none;
   }
-
-  .inner {
+  #main_content {
+  padding-top: 140px;
     min-width: 320px;
     max-width: 480px;
   }
+
+  nav { width: 100%; margin-top: 10px;}
+  nav li { padding: 12px 22px;}
 
   #project_title {
   font-size: 32px;
@@ -413,30 +488,4 @@ Small Device Styles
 }
 
 
-/* Stuff added by Lauren */ 
 
-.pull-left { float: left; }
-.pull-right { float: right; }
-
-#footer { margin: 15px 0 0; font-size: 11px; line-height: 14px; background-image: url("../images/w.png"); }
-
-#footer .copyright { width: 32%; margin-bottom: 10px; margin-left: 45px; }
-
-#footer .partners { margin-left: 35px; width: 58%; color: #AAAAAA; }
-
-.visuallyhidden { border: 0 none;
-    clip: rect(0px, 0px, 0px, 0px);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;}
-    
-.logo  { background-image: url("../images/spacescout_new.png");
-    background-position: 0 50%;
-    background-repeat: no-repeat;
-    height: 80px;
-    line-height: 80px;
-    position: relative;
-        width: 284px; 
