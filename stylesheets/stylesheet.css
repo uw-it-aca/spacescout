@@ -408,10 +408,9 @@ Full-Width Styles
     position: relative;
     overflow: hidden;
     white-space: nowrap;
-    width: 400px;
 
   }
-  nav ul { list-style: none;margin-bottom: 0; overflow: hidden;}
+  nav ul { list-style: none;margin-bottom: 0; overflow: hidden; float: left;}
   nav li {
     text-shadow: rgba(0,0,0,0.75) 0 1px 1px;
     display: inline-block;
@@ -443,13 +442,13 @@ Small Device Styles
     display: none;
   }
   #main_content {
-  padding-top: 140px;
-    min-width: 320px;
+    padding-top: 140px;
     max-width: 480px;
   }
 
   nav { width: 100%; margin-top: 10px;}
-  nav li { padding: 12px 22px;}
+  nav ul {float: none;}
+  nav li { padding: 12px 15px;}
 
   #project_title {
   font-size: 32px;
