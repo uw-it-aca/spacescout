@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Spacescout : A repository for information related to all SpaceScout™ components." />
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+    <title>SpaceScout</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+        <header>
+        <div class="logo">
+          <h1 class="visuallyhidden">SpaceScout&trade;: Get Started</h1>
+        </div>
+        <nav role="navigation">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="getstarted.html">Get Started</a></li>
+            <li><a href="ForPM.html">For Project Managers</a></li>
+            <li><a href="ForDev.html">For Developers</a></li>
+          </ul>
+        </nav>
+      </header>
+    <!-- MAIN CONTENT -->
+
+      <section id="main_content">
+
+        <h2>Starting a SpaceScout project at your institution</h2>
+        
+        <h3>Who benefits?</h3>
+        
+        <h4>Students</h4>
+        <p>Able to quickly find what they need in study space, students can maximize time spent working. Students also report greater awareness of the range of spaces available to them, and as a result, make better use of campus investments.</p>
+        <h4>Campus partners and planners</h4>
+        <p>Information from the app on users’ frequent search criteria, spaces frequently viewed, etc. will inform campus planners about the kinds of spaces and features students need most.</p>
+        <h4>Internal IT</h4>
+        <p>Space data collected for the project can be used for any number of applications, consumable through APIs that were created specifically for SpaceScout.</p>
+        
+        <h3>Time investment</h3>
+        
+        <p>The time investment required will vary depending on your team's skills, your partner relationships, the size of your campus, and more. Three examples of implementations of varying complexity may help you estimate your project.</p>
+        
+        <p>First, UW-IT's SpaceScout development and implementation from scratch was completed in several phases. From project conception to release of both the iOS app and the web app, the process took about seven months. This included: 
+        <ol><li>Data gathering (concurrent with software development): Full-time product owner/project manager, one half-time student, three campus partners (Libraries, Housing and Food Services, Computing Directors).</li>
+        <li>Server development: One engineer, two half-time students. </li>
+        <li>iOS development: One engineer, two user experience designers for design and front-end development. None had any experience with iOS design or development. </li>
+        <li>Web app development: One engineer, 1.5 user experience designers for design and front end development.</li></ol></p>
+        
+        <p>Second, after development and deployment of the app with UW Seattle spaces, we worked with partners on the UW Tacoma campus to gather data about their spaces. Based on that experience, we estimate that the data gathering and vetting process on its own can take as little as a two to four weeks of one person working part-time. Delegating to campus partners who are the logical owners of spaces (Librarians, computing directors, etc.) decreases the workload, though the data must still be standardized and cleaned up by one or two people.</p>
+        
+        <p>Third, a team of University of Illinois at Urbana-Champaign students completed a basic implementation of the web app over the course of a term as a class project. This indicates that a working version of the web app could be a matter of just a few months' work.</p>
+        
+        
+        <h3>Resources and skills needed</h3>
+            <p>A successful SpaceScout implementation relies on several components.</p>
+        
+            <h4>Project management and data gathering</h4> 
+                <p>The data about the spaces must be accurate and there must be a sufficient number of spaces included at launch to give students motivation to use the app. Your project manager should be comfortable making connections with space owners on campus and have a good grasp of the culture of your campus and the way students use spaces.</p>
+            
+            <h4>Development team</h4>
+                <p>Your development team must deploy, at minimum, the server and either the web or the iOS application (or both, of course). Optionally, you can also deploy integration with <a href="http://www.labstats.com/Home/computer-lab-management-software">LabStats software</a> that sends real-time computer availability information to SpaceScout.</p>
+                
+                <p>The technologies used include: 
+                <ul><li>For the web app and server:
+                    <ul><li>Linux OS</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Google Maps API</li>
+                    <li>jQuery</li>
+                    <li>Handlebars</li></ul>
+                </li>
+                <li>For the native iOS application:
+                    <ul>
+                    <li>Objective-C</li>
+                    <li>Map Kit</li>
+                    </ul>                        
+                </li>
+                </ul>
+                </p>
+
+
+      </section>
+
+
+    <!-- FOOTER  -->
+  
+    <div class="clearfix" id="footer">
+                  <div class="pull-left copyright">Copyright &copy; 2012, 2013 &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.washington.edu/online/privacy/">Privacy</a> | <a target="_blank" href="http://www.washington.edu/online/terms/">Terms</a> | <a target="_blank" title="About SpaceScout" href="http://www.washington.edu/lst/help/spacescout-faq">About</a><br>Academic and Collaborative Applications, UW-IT</div>
+                  <div class="pull-left partners">Brought to you by UW-IT in partnership with Housing and Food Services, UW Libraries, UW Computing Directors, and partially funded by the Student Technology Fee</div>
+              </div>
+
+  </body>
+</html>
