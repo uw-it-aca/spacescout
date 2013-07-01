@@ -486,7 +486,9 @@ Small Device Styles
   nav li a:hover {
     color: #1a9cff;
   }
-
+  footer { height: auto; }
+  footer .copyright, footer .partners { display: block; padding: 0; margin: 0 auto; float: none;  }
+  footer .partners { margin-top: 15px; padding-bottom: 20px;}
   #project_title {
   font-size: 32px;
   }
