@@ -411,14 +411,16 @@ Full-Width Styles
   nav li {
     text-shadow: rgba(0,0,0,0.75) 0 1px 1px;
     display: inline-block;
-    padding: 28px 15px;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
   }
   nav li a {
+
+    display: block;
     color: #fff;
     text-shadow: rgba(0,0,0,.55) 0 1px 1px;
+    padding: 28px 15px;
    }
    nav li a:hover {
   color: #007edf;
