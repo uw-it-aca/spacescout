@@ -130,10 +130,6 @@ a {
   
 }
 
-footer a:hover {
-  color: #43adff;
-}
-
 em {
   font-style: italic;
 }
@@ -376,14 +372,17 @@ color: #fff;
 background-color: #343434;
 font-size: 11px;
 margin-top: 30px;
-padding: 10px 40px 0 40px;
+padding-top: 25px;
+height: 70px;
 }
 footer a { color: #1a9cff;}
-
+footer a:hover { color: #43adff; }
 footer .w-logo { margin: 2px 0 0 0; padding-right: 30px;  background: url(../images/w.png) no-repeat; float: left; width:36px; height: 24px;}
-footer .copyright { margin-bottom: 10px;  }
-
-footer .partners { margin-left: 45px; color: white; }
+footer .copyright { margin-bottom: 10px; float: left; width: 300px;  }
+footer .partners { width: 300px; float: right; }
+.footer-nav { width: 300px; float: left; margin: 0 auto;}
+footer .footer-nav h4 { color: white; font-size: 14px; margin-top: -5px;}
+footer .footer-nav ul li { list-style: none; padding: 0;}
 
 .visuallyhidden { border: 0 none;
     clip: rect(0px, 0px, 0px, 0px);
