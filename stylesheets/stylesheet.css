@@ -65,6 +65,9 @@ body {
   -webkit-font-smoothing: antialiased;
 
 }
+html, body {
+  height: 100%;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
@@ -348,6 +351,12 @@ Full-Width Styles
   padding-top: 90px;
   background: #E5E5E5;
 }
+.wrapper {
+    min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -96px;
+}
 /*
 #footer_wrap {
   background: #212121;
@@ -363,18 +372,22 @@ Full-Width Styles
 
 .pull-left { float: left; }
 .pull-right { float: right; }
-
-footer { 
+.push, footer {clear: both; height: 70px}
+footer {
+clear: both;
 border-top: 1px solid rgba(255,255,255,0.3);
 box-shadow: inset 0 1px 1px rgba(0,0,0,.3);
-overflow: visible;
 color: #fff;
 background-color: #343434;
 font-size: 11px;
 margin-top: 30px;
 padding-top: 25px;
-height: 70px;
+position: relative;
+width: 100%;
+bottom:0;
 }
+
+
 footer a { color: #1a9cff;}
 footer a:hover { color: #43adff; }
 footer .w-logo { margin: 2px 0 0 0; padding-right: 30px;  background: url(../images/w.png) no-repeat; float: left; width:36px; height: 24px;}
