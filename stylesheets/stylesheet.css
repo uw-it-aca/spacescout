@@ -63,6 +63,10 @@ body {
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+
+}
+html, body {
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -126,12 +130,7 @@ a {
 
 #main_content a:hover {
   color: #0069ba;
-  text-shadow: #0090ff 0px 0px 2px;
-}
-
-footer a:hover {
-  color: #43adff;
-  text-shadow: #0090ff 0px 0px 2px;
+  
 }
 
 em {
@@ -351,23 +350,52 @@ Full-Width Styles
 #main_content {
   padding-top: 90px;
   background: #E5E5E5;
-  margin: 0 20px;
 }
-
+.wrapper {
+    min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -96px;
+}
+/*
 #footer_wrap {
   background: #212121;
 }
-
+*/
 /* Stuff added by Lauren */ 
+
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
 
 .pull-left { float: left; }
 .pull-right { float: right; }
+.push, footer {clear: both; height: 70px}
+footer {
+clear: both;
+border-top: 1px solid rgba(255,255,255,0.3);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.3);
+color: #fff;
+background-color: #343434;
+font-size: 11px;
+margin-top: 30px;
+padding-top: 25px;
+position: relative;
+width: 100%;
+bottom:0;
+}
 
-#footer { margin: 15px 0 0; font-size: 11px; line-height: 14px; background-image: url("../images/w.png"); }
 
-#footer .copyright { width: 32%; margin-bottom: 10px; margin-left: 45px; }
-
-#footer .partners { margin-left: 35px; width: 58%; color: #AAAAAA; }
+footer a { color: #1a9cff;}
+footer a:hover { color: #43adff; }
+footer .w-logo { margin: 2px 0 0 0; padding-right: 30px;  background: url(../images/w.png) no-repeat; float: left; width:36px; height: 24px;}
+footer .copyright { margin-bottom: 10px; float: left; width: 300px;  }
+footer .partners { width: 300px; float: right; }
+.footer-nav { width: 300px; float: left; margin: 0 auto;}
+footer .footer-nav h4 { color: white; font-size: 14px; margin-top: -5px;}
+footer .footer-nav ul li { list-style: none; padding: 0;}
 
 .visuallyhidden { border: 0 none;
     clip: rect(0px, 0px, 0px, 0px);
@@ -382,12 +410,11 @@ Full-Width Styles
     background-image: url("../images/spacescout_new.png");
     background-position: 0 50%;
     background-repeat: no-repeat;
-    height: 80px;
-    line-height: 80px;
-    width: 284px;
+    height: 75px;
+    width: 206px;
     margin-left: 20px;
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   /* jared */
@@ -436,18 +463,20 @@ Small Device Styles
   body {
     font-size:14px;
   }
-
+  .container { width: 100%;}
   #downloads {
     display: none;
   }
   #main_content {
     padding-top: 255px;
     max-width: 480px;
+    padding: 255px 20px 0 20px;
+
   }
   header {
     box-shadow: none;
   }
-  nav { 
+  nav {
     width: 100%;
     margin-top: 10px; 
     border-top:1px solid rgba(255,255,255,0.35);
@@ -470,7 +499,9 @@ Small Device Styles
   nav li a:hover {
     color: #1a9cff;
   }
-
+  footer { height: auto; }
+  footer .copyright, footer .partners { display: block; padding: 0; margin: 0 auto; float: none;  }
+  footer .partners { margin-top: 15px; padding-bottom: 20px;}
   #project_title {
   font-size: 32px;
   }
