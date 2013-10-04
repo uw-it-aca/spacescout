@@ -357,6 +357,15 @@ Full-Width Styles
   height: 100%;
   margin: 0 auto -96px;
 }
+
+.images img {
+    width: auto;
+    display: block;
+}
+
+.indent {
+    margin-left: 5%;
+}
 /*
 #footer_wrap {
   background: #212121;
