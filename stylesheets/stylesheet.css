@@ -366,6 +366,10 @@ Full-Width Styles
 .indent {
     margin-left: 5%;
 }
+
+.underline {
+    text-decoration: underline;
+}
 /*
 #footer_wrap {
   background: #212121;
