@@ -370,6 +370,23 @@ Full-Width Styles
 .underline {
     text-decoration: underline;
 }
+
+#main-content ol li {
+    list-style-position: outside;
+    margin: 20px 40px;
+    
+}
+
+#main-content label {
+    display:block;
+    padding-bottom: 20px;
+    
+}
+
+#main-content input {
+    padding-left: 10px;    
+}
+
 /*
 #footer_wrap {
   background: #212121;
