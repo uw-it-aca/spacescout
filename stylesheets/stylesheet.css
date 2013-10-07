@@ -380,7 +380,12 @@ Full-Width Styles
 #main_content form label {
     display:block;
     padding-bottom: 20px;
-    
+    font-weight: bold;
+    font-size:.9em;
+}
+
+#main_content form label input; #main_content form label textarea {
+    display:block;
 }
 
 #main_content form input {
