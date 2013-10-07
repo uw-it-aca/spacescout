@@ -377,13 +377,13 @@ Full-Width Styles
     
 }
 
-#main-content label {
+#main-content form label {
     display:block;
     padding-bottom: 20px;
     
 }
 
-#main-content input {
+#main-content form input {
     padding-left: 10px;    
 }
 
