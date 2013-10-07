@@ -371,19 +371,19 @@ Full-Width Styles
     text-decoration: underline;
 }
 
-#main-content ol li {
+#main_content ol li {
     list-style-position: outside;
     margin: 20px 40px;
     
 }
 
-#main-content form label {
+#main_content form label {
     display:block;
     padding-bottom: 20px;
     
 }
 
-#main-content form input {
+#main_content form input {
     padding-left: 10px;    
 }
 
