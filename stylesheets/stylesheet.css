@@ -421,11 +421,11 @@ Full-Width Styles
     border: none;
     color:#1A9CFF;
     margin-left:10px;
-    text-decoration: underline;
 }
 
 .reset_button:hover {
    cursor: pointer;
+   color: #0069BA;
 }
 
 
