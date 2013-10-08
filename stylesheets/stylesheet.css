@@ -399,13 +399,21 @@ Full-Width Styles
 
 .submit_button {
     background-color: #1A9CFF;
-    padding: 10px 5px;
+    padding: 12px 15px;
     border: none;
-    border-radius: 7px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
     color: #fff;
     font-weight: bold;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.submit_button:hover {
+    background-color: #5BA1D7;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .reset_button {
@@ -415,6 +423,11 @@ Full-Width Styles
     margin-left:10px;
     text-decoration: underline;
 }
+
+.reset_button:hover {
+   cursor: pointer;
+}
+
 
 
 /*
