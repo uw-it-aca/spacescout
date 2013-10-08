@@ -397,7 +397,7 @@ Full-Width Styles
     width: 200px;
 }
 
-.submit_button {
+.submit_button, .ss-form-entry input {
     background-color: #1A9CFF;
     padding: 12px 15px;
     border: none;
@@ -410,7 +410,7 @@ Full-Width Styles
     margin-bottom: 20px;
 }
 
-.submit_button:hover {
+.submit_button:hover, .ss-form-entry input:hover {
     background-color: #5BA1D7;
     cursor: pointer;
     text-decoration: underline;
