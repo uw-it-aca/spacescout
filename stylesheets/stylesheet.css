@@ -384,7 +384,7 @@ Full-Width Styles
     font-size:.9em;
 }
 
-#main_content form label input; #main_content form label textarea {
+#main_content form label input, #main_content form label textarea {
     display:block;
     padding:5px;
 }
