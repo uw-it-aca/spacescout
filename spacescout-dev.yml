@@ -1,0 +1,5 @@
+# Dead simple playbook to just test running it with Ansible.
+- hosts: all
+  tasks:
+    - name: test that the playbook is run
+      shell: echo "Hello world!"
